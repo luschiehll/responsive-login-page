@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <script src="/src/json/index.js"></script>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="space">
+                <h2 class="title">Sing In</h2>
+            </div>
+
+            <fieldset class="email">
+                <input type="email" required placeholder="E-Mail">
+                <div class="icone2">
+                    <box-icon name='envelope' type='solid' color='#302b27' ></box-icon>
+                </div>
+            </fieldset>
+
+            <div class="space">
+                <div class="bar"></div>
+                <h2 class="title2">&</h2>
+                <div class="bar"></div>
+            </div>
+
+            <fieldset class="password">
+                <input type="password" required placeholder="Password">
+                <div class="icone2">
+                    <box-icon name='lock-alt' type='solid' color='#302b27'></box-icon>
+                </div>
+            </fieldset>
+
+            <div class="side_area">
+                  <div><input type="checkbox" id="remember"> 
+                  <label for="remember">Remember me</label></div>  
+
+                    <a href="/index.html">Forgot password?</a>
+            </div>
+
+            <div class="submit_area">
+                <button class="submit_button">Sing In</button>
+
+                <label>Don't have a account? <a href="/index.html">Create</a></label>
+            </div>
+        </div>
+    </main>
+
+    <!--BoxIcons-->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

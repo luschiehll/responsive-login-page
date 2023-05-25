@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #302B27;
+    box-shadow: 2px 2px 2px 1px #F5F3F5;
+    height: 440px;
+    width: 420px;
+    border-radius: 20px;
+    opacity: 80%;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email, .password {
+    position: relative;
+    margin: 6px;
+    border: none;
+}
+
+input[type=email],
+input[type=password] {
+    font-size: 14px;
+    padding: 13px;
+    margin: 10px;
+    color: #2A3439;
+    width: 57vh;
+    border-radius: 20px;
+    border: 1px solid #F5F3F5;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    color: #F5F3F5;
+    font-size: 30px;
+    margin: 2px;
+    margin-top: 10px;
+}
+
+.title2 {
+    color: #F5F3F5;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.bar {
+    width: 28vh;
+    height: 1px;
+    background-color: #F5F3F5;
+    margin-top: 9px;
+}
+
+.side_area {
+    font-size: 15px;
+    width: 89%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    color: #F5F3F5;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.side_area a {
+    text-decoration: none;
+    color: #F5F3F5;
+}
+
+.icone2 {
+    position:absolute;
+    bottom: 18px; right: 19px; 
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;   
+}
+
+.submit_area {
+    font-size: 15px;
+    width: 89%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: none;
+    color: #F5F3F5;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.submit_area a {
+    color: #576CA8;
+}
+
+.submit_button {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 13px;
+    margin: 10px;
+    margin-bottom: 10px;
+    color: #2A3439;
+    width: 40vh;
+    border-radius: 20px;
+    border: 1px solid #F5F3F5;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.submit_button:hover {
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+
+.submit_button:not(:hover) {
+    transform: scale(1);
+    transition: 0.2s ease-in-out;
+}

@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    /*Position*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+    /*Background*/
+    background-image: url(/src/imgs/montanha.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
